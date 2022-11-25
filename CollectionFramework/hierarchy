@@ -1,0 +1,17 @@
+
+
+
+Hierarchy Of Collection FrameWrok :-
+
+***  Important
+
+                                             iterable(I)
+
+                                            collection(I)
+
+     List(I)                                  Queue(I)                                Set(I)
+
+- ArrayList(C)                             PriorityQueur(C)                         HashSet(C)
+- LinkedList(C)                               Deque(I)                              LinkedHashSet(C)
+- Vector(C)                                ArrayDequeue(C)
+- Stack(C)
