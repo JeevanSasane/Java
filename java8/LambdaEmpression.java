@@ -8,7 +8,7 @@ public class LambdaEmpression {
 
     public static void main(String[] args) {
 
-        MyInterface myInterface= ()-> {   //()anonemous inner function
+        MyInterface myInterface= ()-> {   //()anonymous inner function
             System.out.println("In Lambada");
         };
         myInterface.show();
@@ -28,6 +28,12 @@ public class LambdaEmpression {
                 System.out.println(integer);
             }
         });
+
+
+        MyInterface3 myInterface3=()-> {
+                System.out.println("In set");
+            };
+        myInterface3.set();
     }
 }
 @FunctionalInterface
@@ -40,4 +46,10 @@ interface MyInterface{
 interface MyInterface1{
 
     void add(int i,int j);
+}
+
+
+@FunctionalInterface
+interface MyInterface3{
+    void set();
 }
